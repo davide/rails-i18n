@@ -149,6 +149,15 @@ es:
       attributes:
         # Overrides model and default messages.
 
+  activemodel:
+    errors:
+      template:
+        header:
+          one:   "No se pudo guardar este/a {{model}} porque se encontró 1 error"
+          other:  "No se pudo guardar este/a {{model}} porque se encontraron {{count}} errores"
+        # The variable :count is also available
+        body: "Se encontraron problemas con los siguientes campos:"
+
   date:
     formats:
       # Use the strftime parameters for formats.
