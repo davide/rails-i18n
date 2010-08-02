@@ -60,6 +60,28 @@ es:
           mb: "MB"
           gb: "GB"
           tb: "TB"
+      # new in rails 3: please add to other locales
+      decimal_units:
+        format: "%n %u"
+        units:
+          unit: ""     
+          thousand: "mil"
+          # 10^6
+          million:
+            one: millón
+            other: millones
+          # 10^9
+          billion:
+            one: mil millones
+            other: mil millones
+          # 10^12
+          trillion:
+            one: billón
+            other: billones
+          # 10^15
+          quadrillion:
+            one: mil billones
+            other: mil billones
 
   # Used in distance_of_time_in_words(), distance_of_time_in_words_to_now(), time_ago_in_words()
   datetime:
