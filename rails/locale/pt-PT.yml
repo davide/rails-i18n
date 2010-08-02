@@ -156,18 +156,22 @@ pt-PT:
         units:
           unit: ""     
           thousand: "mil"
+          # 10^6
           million:
             one: milhão
             other: milhões
+          # 10^9
           billion:
-            one: bilhão
-            other: bilhões
+            one: mil milhões
+            other: mil milhões
+          # 10^12
           trillion:
-            one: trilhão
-            other: trilhões
+            one: bilião
+            other: biliões
+          # 10^15
           quadrillion:
-            one: quatrilhão
-            other: quatrilhões
+            one: mil biliões
+            other: mil biliões
 
   activerecord:
     errors:

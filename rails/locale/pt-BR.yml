@@ -119,15 +119,19 @@ pt-BR:
         units:
           unit: ""     
           thousand: "mil"
+          # 10^6
           million:
             one: milhão
             other: milhões
+          # 10^9
           billion:
             one: bilhão
             other: bilhões
+          # 10^12
           trillion:
             one: trilhão
             other: trilhões
+          # 10^15
           quadrillion:
             one: quatrilhão
             other: quatrilhões
